@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		093CE0AB29E993D1008B98E0 /* Time_travelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093CE0AA29E993D1008B98E0 /* Time_travelApp.swift */; };
+		093CE0AD29E993D1008B98E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093CE0AC29E993D1008B98E0 /* ContentView.swift */; };
+		093CE0AF29E993D3008B98E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 093CE0AE29E993D3008B98E0 /* Assets.xcassets */; };
+		093CE0B229E993D3008B98E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 093CE0B129E993D3008B98E0 /* Preview Assets.xcassets */; };
+		093CE0B929E994FA008B98E0 /* TravelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093CE0B829E994F9008B98E0 /* TravelView.swift */; };
+		093CE0BB29E9950F008B98E0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093CE0BA29E9950F008B98E0 /* SettingsView.swift */; };
+		093CE0BD29E9956B008B98E0 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093CE0BC29E9956B008B98E0 /* Landmark.swift */; };
+		093CE0BF29E995D1008B98E0 /* Epoch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093CE0BE29E995D1008B98E0 /* Epoch.swift */; };
+		093CE0C129E996AE008B98E0 /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093CE0C029E996AE008B98E0 /* EventDetailView.swift */; };
+		093CE0C329E9978E008B98E0 /* EpochViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093CE0C229E9978E008B98E0 /* EpochViewModel.swift */; };
+		093CE0C629E99986008B98E0 /* TimeTravelModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 093CE0C429E99985008B98E0 /* TimeTravelModel.xcdatamodeld */; };
+		093CE0C829E99A2A008B98E0 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093CE0C729E99A2A008B98E0 /* PersistenceController.swift */; };
+		093CE0CA29E99F1A008B98E0 /* EventEntity+CustomProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093CE0C929E99F1A008B98E0 /* EventEntity+CustomProperties.swift */; };
+		0993691529EDBDFD00EF3300 /* AddLandmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993691429EDBDFD00EF3300 /* AddLandmarkView.swift */; };
+		0993691729EDBE3200EF3300 /* LandmarkEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993691629EDBE3200EF3300 /* LandmarkEntity.swift */; };
+		0993691929EE2C1900EF3300 /* MapPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993691829EE2C1900EF3300 /* MapPicker.swift */; };
+		0993691B29EE30FC00EF3300 /* MapPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993691A29EE30FC00EF3300 /* MapPickerView.swift */; };
+		0993691D29EE435B00EF3300 /* AllLandmarksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993691C29EE435B00EF3300 /* AllLandmarksView.swift */; };
+		0993691F29EE44F200EF3300 /* LandmarkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993691E29EE44F200EF3300 /* LandmarkDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		093CE0A729E993D1008B98E0 /* Time travel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time travel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		093CE0AA29E993D1008B98E0 /* Time_travelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_travelApp.swift; sourceTree = "<group>"; };
+		093CE0AC29E993D1008B98E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		093CE0AE29E993D3008B98E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		093CE0B129E993D3008B98E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		093CE0B829E994F9008B98E0 /* TravelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelView.swift; sourceTree = "<group>"; };
+		093CE0BA29E9950F008B98E0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		093CE0BC29E9956B008B98E0 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		093CE0BE29E995D1008B98E0 /* Epoch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Epoch.swift; sourceTree = "<group>"; };
+		093CE0C029E996AE008B98E0 /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
+		093CE0C229E9978E008B98E0 /* EpochViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpochViewModel.swift; sourceTree = "<group>"; };
+		093CE0C529E99985008B98E0 /* TimeTravelModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TimeTravelModel.xcdatamodel; sourceTree = "<group>"; };
+		093CE0C729E99A2A008B98E0 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		093CE0C929E99F1A008B98E0 /* EventEntity+CustomProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EventEntity+CustomProperties.swift"; sourceTree = "<group>"; };
+		0993691429EDBDFD00EF3300 /* AddLandmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLandmarkView.swift; sourceTree = "<group>"; };
+		0993691629EDBE3200EF3300 /* LandmarkEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkEntity.swift; sourceTree = "<group>"; };
+		0993691829EE2C1900EF3300 /* MapPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPicker.swift; sourceTree = "<group>"; };
+		0993691A29EE30FC00EF3300 /* MapPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPickerView.swift; sourceTree = "<group>"; };
+		0993691C29EE435B00EF3300 /* AllLandmarksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllLandmarksView.swift; sourceTree = "<group>"; };
+		0993691E29EE44F200EF3300 /* LandmarkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		093CE0A429E993D1008B98E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		093CE09E29E993D1008B98E0 = {
+			isa = PBXGroup;
+			children = (
+				093CE0A929E993D1008B98E0 /* Time travel */,
+				093CE0A829E993D1008B98E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		093CE0A829E993D1008B98E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				093CE0A729E993D1008B98E0 /* Time travel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		093CE0A929E993D1008B98E0 /* Time travel */ = {
+			isa = PBXGroup;
+			children = (
+				093CE0AA29E993D1008B98E0 /* Time_travelApp.swift */,
+				093CE0AC29E993D1008B98E0 /* ContentView.swift */,
+				093CE0BA29E9950F008B98E0 /* SettingsView.swift */,
+				093CE0B829E994F9008B98E0 /* TravelView.swift */,
+				0993691429EDBDFD00EF3300 /* AddLandmarkView.swift */,
+				0993691C29EE435B00EF3300 /* AllLandmarksView.swift */,
+				0993691629EDBE3200EF3300 /* LandmarkEntity.swift */,
+				0993691829EE2C1900EF3300 /* MapPicker.swift */,
+				0993691A29EE30FC00EF3300 /* MapPickerView.swift */,
+				093CE0C929E99F1A008B98E0 /* EventEntity+CustomProperties.swift */,
+				093CE0C029E996AE008B98E0 /* EventDetailView.swift */,
+				0993691E29EE44F200EF3300 /* LandmarkDetailView.swift */,
+				093CE0C229E9978E008B98E0 /* EpochViewModel.swift */,
+				093CE0BE29E995D1008B98E0 /* Epoch.swift */,
+				093CE0C729E99A2A008B98E0 /* PersistenceController.swift */,
+				093CE0BC29E9956B008B98E0 /* Landmark.swift */,
+				093CE0AE29E993D3008B98E0 /* Assets.xcassets */,
+				093CE0B029E993D3008B98E0 /* Preview Content */,
+				093CE0C429E99985008B98E0 /* TimeTravelModel.xcdatamodeld */,
+			);
+			path = "Time travel";
+			sourceTree = "<group>";
+		};
+		093CE0B029E993D3008B98E0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				093CE0B129E993D3008B98E0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		093CE0A629E993D1008B98E0 /* Time travel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 093CE0B529E993D3008B98E0 /* Build configuration list for PBXNativeTarget "Time travel" */;
+			buildPhases = (
+				093CE0A329E993D1008B98E0 /* Sources */,
+				093CE0A429E993D1008B98E0 /* Frameworks */,
+				093CE0A529E993D1008B98E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Time travel";
+			productName = "Time travel";
+			productReference = 093CE0A729E993D1008B98E0 /* Time travel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		093CE09F29E993D1008B98E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					093CE0A629E993D1008B98E0 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 093CE0A229E993D1008B98E0 /* Build configuration list for PBXProject "Time travel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 093CE09E29E993D1008B98E0;
+			productRefGroup = 093CE0A829E993D1008B98E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				093CE0A629E993D1008B98E0 /* Time travel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		093CE0A529E993D1008B98E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093CE0B229E993D3008B98E0 /* Preview Assets.xcassets in Resources */,
+				093CE0AF29E993D3008B98E0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		093CE0A329E993D1008B98E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093CE0C629E99986008B98E0 /* TimeTravelModel.xcdatamodeld in Sources */,
+				093CE0AD29E993D1008B98E0 /* ContentView.swift in Sources */,
+				0993691D29EE435B00EF3300 /* AllLandmarksView.swift in Sources */,
+				093CE0BB29E9950F008B98E0 /* SettingsView.swift in Sources */,
+				0993691F29EE44F200EF3300 /* LandmarkDetailView.swift in Sources */,
+				093CE0C329E9978E008B98E0 /* EpochViewModel.swift in Sources */,
+				093CE0B929E994FA008B98E0 /* TravelView.swift in Sources */,
+				093CE0BF29E995D1008B98E0 /* Epoch.swift in Sources */,
+				0993691529EDBDFD00EF3300 /* AddLandmarkView.swift in Sources */,
+				093CE0AB29E993D1008B98E0 /* Time_travelApp.swift in Sources */,
+				093CE0CA29E99F1A008B98E0 /* EventEntity+CustomProperties.swift in Sources */,
+				093CE0BD29E9956B008B98E0 /* Landmark.swift in Sources */,
+				0993691729EDBE3200EF3300 /* LandmarkEntity.swift in Sources */,
+				093CE0C129E996AE008B98E0 /* EventDetailView.swift in Sources */,
+				0993691929EE2C1900EF3300 /* MapPicker.swift in Sources */,
+				093CE0C829E99A2A008B98E0 /* PersistenceController.swift in Sources */,
+				0993691B29EE30FC00EF3300 /* MapPickerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		093CE0B329E993D3008B98E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		093CE0B429E993D3008B98E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		093CE0B629E993D3008B98E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Time travel/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilya.Time-travel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		093CE0B729E993D3008B98E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Time travel/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ilya.Time-travel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		093CE0A229E993D1008B98E0 /* Build configuration list for PBXProject "Time travel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093CE0B329E993D3008B98E0 /* Debug */,
+				093CE0B429E993D3008B98E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		093CE0B529E993D3008B98E0 /* Build configuration list for PBXNativeTarget "Time travel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093CE0B629E993D3008B98E0 /* Debug */,
+				093CE0B729E993D3008B98E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		093CE0C429E99985008B98E0 /* TimeTravelModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				093CE0C529E99985008B98E0 /* TimeTravelModel.xcdatamodel */,
+			);
+			currentVersion = 093CE0C529E99985008B98E0 /* TimeTravelModel.xcdatamodel */;
+			path = TimeTravelModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 093CE09F29E993D1008B98E0 /* Project object */;
+}
