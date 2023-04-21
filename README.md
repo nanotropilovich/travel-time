@@ -18,7 +18,7 @@ Welcome to the Time Travel Guide, a SwiftUI app that helps you explore historica
 
 ## Getting Started 🚀🏁
 
-1. Clone the repository: `git clone https://github.com/yourusername/TimeTravelGuide.git`
+1. Clone the repository: `git clone https://github.com/nanotropilovich/travel-time.git`
 2. Open the project in Xcode: `open TimeTravelGuide.xcodeproj`
 3. Run the app on a simulator or a real device! 📱💥
 
