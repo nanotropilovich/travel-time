@@ -22,10 +22,10 @@
 		093CE0CA29E99F1A008B98E0 /* EventEntity+CustomProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093CE0C929E99F1A008B98E0 /* EventEntity+CustomProperties.swift */; };
 		0993691529EDBDFD00EF3300 /* AddLandmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993691429EDBDFD00EF3300 /* AddLandmarkView.swift */; };
 		0993691729EDBE3200EF3300 /* LandmarkEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993691629EDBE3200EF3300 /* LandmarkEntity.swift */; };
-		0993691929EE2C1900EF3300 /* MapPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993691829EE2C1900EF3300 /* MapPicker.swift */; };
 		0993691B29EE30FC00EF3300 /* MapPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993691A29EE30FC00EF3300 /* MapPickerView.swift */; };
 		0993691D29EE435B00EF3300 /* AllLandmarksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993691C29EE435B00EF3300 /* AllLandmarksView.swift */; };
 		0993691F29EE44F200EF3300 /* LandmarkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993691E29EE44F200EF3300 /* LandmarkDetailView.swift */; };
+		0993692129F26C4500EF3300 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0993692029F26C4500EF3300 /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,10 +45,10 @@
 		093CE0C929E99F1A008B98E0 /* EventEntity+CustomProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EventEntity+CustomProperties.swift"; sourceTree = "<group>"; };
 		0993691429EDBDFD00EF3300 /* AddLandmarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLandmarkView.swift; sourceTree = "<group>"; };
 		0993691629EDBE3200EF3300 /* LandmarkEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkEntity.swift; sourceTree = "<group>"; };
-		0993691829EE2C1900EF3300 /* MapPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPicker.swift; sourceTree = "<group>"; };
 		0993691A29EE30FC00EF3300 /* MapPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPickerView.swift; sourceTree = "<group>"; };
 		0993691C29EE435B00EF3300 /* AllLandmarksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllLandmarksView.swift; sourceTree = "<group>"; };
 		0993691E29EE44F200EF3300 /* LandmarkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetailView.swift; sourceTree = "<group>"; };
+		0993692029F26C4500EF3300 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,21 +82,10 @@
 			isa = PBXGroup;
 			children = (
 				093CE0AA29E993D1008B98E0 /* Time_travelApp.swift */,
-				093CE0AC29E993D1008B98E0 /* ContentView.swift */,
-				093CE0BA29E9950F008B98E0 /* SettingsView.swift */,
-				093CE0B829E994F9008B98E0 /* TravelView.swift */,
-				0993691429EDBDFD00EF3300 /* AddLandmarkView.swift */,
-				0993691C29EE435B00EF3300 /* AllLandmarksView.swift */,
-				0993691629EDBE3200EF3300 /* LandmarkEntity.swift */,
-				0993691829EE2C1900EF3300 /* MapPicker.swift */,
-				0993691A29EE30FC00EF3300 /* MapPickerView.swift */,
-				093CE0C929E99F1A008B98E0 /* EventEntity+CustomProperties.swift */,
-				093CE0C029E996AE008B98E0 /* EventDetailView.swift */,
-				0993691E29EE44F200EF3300 /* LandmarkDetailView.swift */,
-				093CE0C229E9978E008B98E0 /* EpochViewModel.swift */,
-				093CE0BE29E995D1008B98E0 /* Epoch.swift */,
-				093CE0C729E99A2A008B98E0 /* PersistenceController.swift */,
-				093CE0BC29E9956B008B98E0 /* Landmark.swift */,
+				0993692529F2744100EF3300 /* Persistence */,
+				0993692429F2742300EF3300 /* Models */,
+				0993692329F273E900EF3300 /* Views */,
+				0993692229F273BC00EF3300 /* View Models */,
 				093CE0AE29E993D3008B98E0 /* Assets.xcassets */,
 				093CE0B029E993D3008B98E0 /* Preview Content */,
 				093CE0C429E99985008B98E0 /* TimeTravelModel.xcdatamodeld */,
@@ -110,6 +99,49 @@
 				093CE0B129E993D3008B98E0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0993692229F273BC00EF3300 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				093CE0B829E994F9008B98E0 /* TravelView.swift */,
+				0993692029F26C4500EF3300 /* SearchView.swift */,
+				0993691429EDBDFD00EF3300 /* AddLandmarkView.swift */,
+				0993691A29EE30FC00EF3300 /* MapPickerView.swift */,
+				093CE0C229E9978E008B98E0 /* EpochViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		0993692329F273E900EF3300 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				093CE0BA29E9950F008B98E0 /* SettingsView.swift */,
+				093CE0AC29E993D1008B98E0 /* ContentView.swift */,
+				093CE0C029E996AE008B98E0 /* EventDetailView.swift */,
+				0993691E29EE44F200EF3300 /* LandmarkDetailView.swift */,
+				0993691C29EE435B00EF3300 /* AllLandmarksView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0993692429F2742300EF3300 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0993691629EDBE3200EF3300 /* LandmarkEntity.swift */,
+				093CE0BE29E995D1008B98E0 /* Epoch.swift */,
+				093CE0BC29E9956B008B98E0 /* Landmark.swift */,
+				093CE0C929E99F1A008B98E0 /* EventEntity+CustomProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0993692529F2744100EF3300 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				093CE0C729E99A2A008B98E0 /* PersistenceController.swift */,
+			);
+			path = Persistence;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,11 +224,11 @@
 				093CE0BF29E995D1008B98E0 /* Epoch.swift in Sources */,
 				0993691529EDBDFD00EF3300 /* AddLandmarkView.swift in Sources */,
 				093CE0AB29E993D1008B98E0 /* Time_travelApp.swift in Sources */,
+				0993692129F26C4500EF3300 /* SearchView.swift in Sources */,
 				093CE0CA29E99F1A008B98E0 /* EventEntity+CustomProperties.swift in Sources */,
 				093CE0BD29E9956B008B98E0 /* Landmark.swift in Sources */,
 				0993691729EDBE3200EF3300 /* LandmarkEntity.swift in Sources */,
 				093CE0C129E996AE008B98E0 /* EventDetailView.swift in Sources */,
-				0993691929EE2C1900EF3300 /* MapPicker.swift in Sources */,
 				093CE0C829E99A2A008B98E0 /* PersistenceController.swift in Sources */,
 				0993691B29EE30FC00EF3300 /* MapPickerView.swift in Sources */,
 			);
